@@ -38,26 +38,26 @@ const styles = StyleSheet.create({
     position: 'absolute',
     padding: 16,
     alignItems: 'center',
-  },
-  topOverlay: {
-    top: 0,
-    left: 0,
-    right: 0,
-    backgroundColor: 'rgba(0, 255, 0, 0.4)',
-    alignItems: 'center',
-  },
-  bottomOverlay: {
-    right: 0,
-    left: 0,
-    bottom: 0,
-    backgroundColor: 'rgba(255,0,0,0.4)',
-    flexDirection: 'row',
-    justifyContent: 'center',
-    alignItems: 'center',
-  }
+  }//,
+  // topOverlay: {
+  //   top: 0,
+  //   left: 0,
+  //   right: 0,
+  //   backgroundColor: 'rgba(0, 255, 0, 0.4)',
+  //   alignItems: 'center',
+  // },
+  // bottomOverlay: {
+  //   right: 0,
+  //   left: 0,
+  //   bottom: 0,
+  //   backgroundColor: 'rgba(255,0,0,0.4)',
+  //   flexDirection: 'row',
+  //   justifyContent: 'center',
+  //   alignItems: 'center',
+  // }
 });
 
-export default class AwesomeProject extends React.Component {
+export default class AwesomeProject extends Component {
   constructor(props) {
     super(props);
 
@@ -71,12 +71,12 @@ export default class AwesomeProject extends React.Component {
     };
   }
 
-  onPlateRecognized = ({ plate, confidence }) => {
-    if (confidence > 90) {
+  onPlateRecognized = ({ plate }) => {
+    // if (confidence > 90) {
       this.setState({
         plate,
       })
-    }
+    // }
   }
 
   render() {
@@ -93,12 +93,12 @@ export default class AwesomeProject extends React.Component {
           style={styles.preview}
           aspect={this.state.camera.aspect}
           captureQuality={Camera.constants.CaptureQuality.medium}
-          country="us"
+          country="au"
           onPlateRecognized={this.onPlateRecognized}
           plateOutlineColor="#ff0000"
-          showPlateOutline
+          showPlateOutline={true} 
           torchMode={Camera.constants.TorchMode.off}
-          touchToFocus
+          touchToFocus={true}
         />
         <View style={[styles.overlay, styles.topOverlay]}>
         </View>

@@ -1,5 +1,7 @@
 
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+
 import {
   requireNativeComponent,
   NativeModules,
@@ -70,7 +72,7 @@ export default class Camera extends Component {
   static defaultProps = {
     aspect: CameraManager.Aspect.fill,
     captureQuality: CameraManager.CaptureQuality.medium,
-    country: 'us',
+    country: 'au',
     plateOutlineColor: '#0028ff',
     showPlateOutline: true,
     rotateMode: CameraManager.RotateMode.off,

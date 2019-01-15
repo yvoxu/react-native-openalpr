@@ -22,11 +22,7 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
-		202976521E60C85C005F1E47 /* leptonica.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2029764F1E60C85C005F1E47 /* leptonica.framework */; };
-		202976531E60C85C005F1E47 /* openalpr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 202976501E60C85C005F1E47 /* openalpr.framework */; };
 		202976561E60C88E005F1E47 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 202976551E60C88E005F1E47 /* AssetsLibrary.framework */; };
-		202976571E60CB2B005F1E47 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2029764D1E60C7DF005F1E47 /* opencv2.framework */; };
-		202976581E60CB2B005F1E47 /* tesseract.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 202976511E60C85C005F1E47 /* tesseract.framework */; };
 		202976DF1E6125B7005F1E47 /* openalpr.conf in Resources */ = {isa = PBXBuildFile; fileRef = 202976DD1E6125B7005F1E47 /* openalpr.conf */; };
 		202976E01E6125B7005F1E47 /* runtime_data in Resources */ = {isa = PBXBuildFile; fileRef = 202976DE1E6125B7005F1E47 /* runtime_data */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
@@ -43,6 +39,10 @@
 		2DCD954D1E0B4F2C00145EB5 /* AwesomeProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AwesomeProjectTests.m */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
+		B9374B3D21ED5E6800402E1E /* openalpr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9374B3921ED5E6800402E1E /* openalpr.framework */; };
+		B9374B3E21ED5E6800402E1E /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9374B3A21ED5E6800402E1E /* opencv2.framework */; };
+		B9374B3F21ED5E6800402E1E /* tesseract.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9374B3B21ED5E6800402E1E /* tesseract.framework */; };
+		B9374B4021ED5E6800402E1E /* leptonica.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9374B3C21ED5E6800402E1E /* leptonica.framework */; };
 		D05CE238DCDE40AF963CB870 /* libRNOpenAlpr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09F9B8922A5248C1821220A3 /* libRNOpenAlpr.a */; };
 /* End PBXBuildFile section */
 
@@ -267,10 +267,6 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AwesomeProject/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		1E535D38BBC54445A23CC8E3 /* RNOpenAlpr.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNOpenAlpr.xcodeproj; path = "../node_modules/react-native-openalpr/ios/RNOpenAlpr.xcodeproj"; sourceTree = "<group>"; };
-		2029764D1E60C7DF005F1E47 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = "../node_modules/z35-35/ios/Frameworks/opencv2.framework"; sourceTree = "<group>"; };
-		2029764F1E60C85C005F1E47 /* leptonica.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = leptonica.framework; path = "../node_modules/z35-35/ios/Frameworks/leptonica.framework"; sourceTree = "<group>"; };
-		202976501E60C85C005F1E47 /* openalpr.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = openalpr.framework; path = "../node_modules/z35-35/ios/Frameworks/openalpr.framework"; sourceTree = "<group>"; };
-		202976511E60C85C005F1E47 /* tesseract.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = tesseract.framework; path = "../node_modules/z35-35/ios/Frameworks/tesseract.framework"; sourceTree = "<group>"; };
 		202976551E60C88E005F1E47 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		202976DD1E6125B7005F1E47 /* openalpr.conf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = openalpr.conf; path = ../../ios/Frameworks/openalpr.framework/openalpr.conf; sourceTree = "<group>"; };
 		202976DE1E6125B7005F1E47 /* runtime_data */ = {isa = PBXFileReference; lastKnownFileType = folder; name = runtime_data; path = ../../ios/Frameworks/openalpr.framework/runtime_data; sourceTree = "<group>"; };
@@ -279,6 +275,10 @@
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
+		B9374B3921ED5E6800402E1E /* openalpr.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = openalpr.framework; path = "../node_modules/react-native-openalpr/ios/Frameworks/openalpr.framework"; sourceTree = "<group>"; };
+		B9374B3A21ED5E6800402E1E /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = "../node_modules/react-native-openalpr/ios/Frameworks/opencv2.framework"; sourceTree = "<group>"; };
+		B9374B3B21ED5E6800402E1E /* tesseract.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = tesseract.framework; path = "../node_modules/react-native-openalpr/ios/Frameworks/tesseract.framework"; sourceTree = "<group>"; };
+		B9374B3C21ED5E6800402E1E /* leptonica.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = leptonica.framework; path = "../node_modules/react-native-openalpr/ios/Frameworks/leptonica.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -294,10 +294,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				202976521E60C85C005F1E47 /* leptonica.framework in Frameworks */,
-				202976531E60C85C005F1E47 /* openalpr.framework in Frameworks */,
-				202976571E60CB2B005F1E47 /* opencv2.framework in Frameworks */,
-				202976581E60CB2B005F1E47 /* tesseract.framework in Frameworks */,
+				B9374B3D21ED5E6800402E1E /* openalpr.framework in Frameworks */,
+				B9374B3E21ED5E6800402E1E /* opencv2.framework in Frameworks */,
+				B9374B3F21ED5E6800402E1E /* tesseract.framework in Frameworks */,
+				B9374B4021ED5E6800402E1E /* leptonica.framework in Frameworks */,
 				202976561E60C88E005F1E47 /* AssetsLibrary.framework in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
 				5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */,
@@ -450,11 +450,11 @@
 		2029764C1E60C7DF005F1E47 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B9374B3C21ED5E6800402E1E /* leptonica.framework */,
+				B9374B3921ED5E6800402E1E /* openalpr.framework */,
+				B9374B3A21ED5E6800402E1E /* opencv2.framework */,
+				B9374B3B21ED5E6800402E1E /* tesseract.framework */,
 				202976551E60C88E005F1E47 /* AssetsLibrary.framework */,
-				2029764F1E60C85C005F1E47 /* leptonica.framework */,
-				202976501E60C85C005F1E47 /* openalpr.framework */,
-				202976511E60C85C005F1E47 /* tesseract.framework */,
-				2029764D1E60C7DF005F1E47 /* opencv2.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -521,6 +521,7 @@
 				00E356EF1AD99517003FC87E /* AwesomeProjectTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2029764C1E60C7DF005F1E47 /* Frameworks */,
+				B9374B1C21ED5D1C00402E1E /* Recovered References */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -535,6 +536,14 @@
 				2D02E4901E0B4A5D006451C7 /* AwesomeProject-tvOSTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B9374B1C21ED5D1C00402E1E /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				09F9B8922A5248C1821220A3 /* libRNOpenAlpr.a */,
+			);
+			name = "Recovered References";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -623,18 +632,20 @@
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
-						DevelopmentTeam = 4G32E7R576;
+						DevelopmentTeam = 6CFU8S8MSU;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = 4G32E7R576;
+						DevelopmentTeam = 6CFU8S8MSU;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6CFU8S8MSU;
 						ProvisioningStyle = Automatic;
 					};
 					2D02E48F1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6CFU8S8MSU;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 2D02E47A1E0B4A5D006451C7;
 					};
@@ -1030,7 +1041,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 4G32E7R576;
+				DEVELOPMENT_TEAM = 6CFU8S8MSU;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -1056,7 +1067,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = 4G32E7R576;
+				DEVELOPMENT_TEAM = 6CFU8S8MSU;
 				INFOPLIST_FILE = AwesomeProjectTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1078,11 +1089,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = 4G32E7R576;
+				DEVELOPMENT_TEAM = 6CFU8S8MSU;
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../node_modules/react-native-openalpr/**";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../node_modules/react-native-openalpr/ios/Frameworks/**";
 				INFOPLIST_FILE = AwesomeProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -1090,7 +1102,9 @@
 					"-ObjC",
 					"-lc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.reactjs.native.openalpr;
 				PRODUCT_NAME = AwesomeProject;
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -1100,9 +1114,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4G32E7R576;
+				DEVELOPMENT_TEAM = 6CFU8S8MSU;
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../node_modules/react-native-openalpr/**";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../node_modules/react-native-openalpr/ios/Frameworks/**";
 				INFOPLIST_FILE = AwesomeProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -1110,7 +1124,9 @@
 					"-ObjC",
 					"-lc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.reactjs.native.openalpr;
 				PRODUCT_NAME = AwesomeProject;
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -1125,6 +1141,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 6CFU8S8MSU;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "AwesomeProject-tvOS/Info.plist";
@@ -1137,7 +1154,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.AwesomeProject-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reactjs.native.openalpr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -1156,6 +1173,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 6CFU8S8MSU;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "AwesomeProject-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1167,7 +1185,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.AwesomeProject-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reactjs.native.openalpr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -1184,6 +1202,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 6CFU8S8MSU;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "AwesomeProject-tvOSTests/Info.plist";
@@ -1210,6 +1229,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 6CFU8S8MSU;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "AwesomeProject-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
